@@ -1,21 +1,19 @@
-// WAP to accept number and check it is even or odd 
-importjava.util.scanner;
-class example2{
-    
-    public static void main(string args[]){
+improtjava.util,scanner;
+ // WAP to print n-1 numbers
+ class LoopExample{
+     
+    public static void main (string arys[]){
         
-        scanners s=new scanners(system.in);
-        system.out.println("enter number");
+        scanner s=new scanner(system.in);
         
-        int num=s.nextint();
+        system.out.println("enter n value");
+        int n=s.nextInt();
         
-        if(num%2==0){
-            system.out.println("even number");
-        }
-        else{
-            system.out.println("odd number");
+        int i=0;
+        for(i=n;i>=1;i--){
+            system.out.print(i+"");
             
         }
-        }
+         
     }
-}
+ }
